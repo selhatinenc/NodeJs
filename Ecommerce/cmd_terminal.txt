@@ -1,0 +1,1017 @@
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite>npm 
+init -y
+
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm i express@4.16.4
+
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm i express mongoose bcrypt body-parser dotenv
+
+
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> 
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+^Z[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\connection.js:805
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
+    at _handleConnectionErrors (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\connection.js:805:11)
+    at NativeConnection.openUri (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\connection.js:780:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 251940507,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\cmap\connect.js:367:20)
+            at Socket.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\cmap\connect.js:290:22)
+            at Object.onceWrapper (node:events:629:26)
+            at Socket.emit (node:events:514:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+        '$clusterTime': null
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\connection.js:805
+    err = new ServerSelectionError();
+          ^
+
+MongooseServerSelectionError: connect ECONNREFUSED ::1:27017
+    at _handleConnectionErrors (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\connection.js:805:11)
+    at NativeConnection.openUri (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\connection.js:780:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) {
+      'localhost:27017' => ServerDescription {
+        address: 'localhost:27017',
+        type: 'Unknown',
+        hosts: [],
+        passives: [],
+        arbiters: [],
+        tags: {},
+        minWireVersion: 0,
+        maxWireVersion: 0,
+        roundTripTime: -1,
+        lastUpdateTime: 251987861,
+        lastWriteDate: 0,
+        error: MongoNetworkError: connect ECONNREFUSED ::1:27017
+            at connectionFailureError (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\cmap\connect.js:367:20)
+            at Socket.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\cmap\connect.js:290:22)
+            at Object.onceWrapper (node:events:629:26)
+            at Socket.emit (node:events:514:28)
+            at emitErrorNT (node:internal/streams/destroy:151:8)
+            at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+            at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+          cause: Error: connect ECONNREFUSED ::1:27017
+              at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16) {
+            errno: -4078,
+            code: 'ECONNREFUSED',
+            syscall: 'connect',
+            address: '::1',
+            port: 27017
+          },
+          [Symbol(errorLabels)]: Set(1) { 'ResetPool' }
+        },
+        topologyVersion: null,
+        setName: null,
+        setVersion: null,
+        electionId: null,
+        logicalSessionTimeoutMinutes: null,
+        primary: null,
+        me: null,
+      }
+    },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+^C^CTerminate batch job (Y/N)?
+Terminate batch job (Y/N)? y
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm run server
+
+> personelwebsite@1.0.0 server
+> nodemon index.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\utils.js:771
+            const runtimeError = new error_1.MongoRuntimeError(`Unable to parse ${escapedHost} with URL`);
+                                 ^
+
+MongoRuntimeError: Unable to parse localhost:127.0.0.1 with URL
+    at new HostAddress (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\utils.js:771:34)
+    at fromString (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\utils.js:813:16)
+    ... 5 lines matching cause stack trace ...
+    at Mongoose.connect (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\index.js:404:15)
+    at dcConnect (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\config\dbConnect.js:5:29)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:10:1) {
+  cause: TypeError [ERR_INVALID_URL]: Invalid URL
+      at new URL (node:internal/url:611:13)
+      at new HostAddress (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\utils.js:768:19)
+      at fromString (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\utils.js:813:16)
+      at Array.map (<anonymous>)
+      at parseOptions (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\connection_string.js:200:45)
+      at new MongoClient (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongodb\lib\mongo_client.js:48:63)
+      at NativeConnection.createClient (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\drivers\node-mongodb-native\connection.js:288:14)
+      at NativeConnection.openUri (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\connection.js:755:34)
+      at Mongoose.connect (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\mongoose\lib\index.js:404:15) {
+    input: 'iLoveJS://localhost:127.0.0.1',
+    code: 'ERR_INVALID_URL'
+  },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+^C^CTerminate batch job (Y/N)? y
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm run server
+
+> personelwebsite@1.0.0 server
+> nodemon index.js
+
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+^C^CTerminate batch job (Y/N)? y
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm run server
+
+> personelwebsite@1.0.0 server
+> nodemon index.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+^C^CTerminate batch job (Y/N)? y
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm run server
+
+> personelwebsite@1.0.0 server
+> nodemon index.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+MongoDB connected successfully
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16
+app.use(notfound)
+        ^
+
+ReferenceError: notfound is not defined
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16:9)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16
+app.use(notfound);
+        ^
+
+ReferenceError: notfound is not defined
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16:9)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16
+app.use(notfound);
+        ^
+
+ReferenceError: notfound is not defined
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16:9)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16
+app.use(notfound);
+        ^
+
+ReferenceError: notfound is not defined
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16:9)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+^C^CTerminate batch job (Y/N)? y
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm i express-async-handler 
+added 1 package, and audited 172 packages in 3s
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm run server
+
+> personelwebsite@1.0.0 server
+> nodemon index.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16
+app.use(notfound);
+        ^
+
+ReferenceError: notfound is not defined
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16:9)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:10
+dbConnect();
+^
+
+SyntaxError: Identifier 'dbConnect' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:9
+const not
+      ^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:17:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+node:internal/modules/cjs/loader:1080
+  throw err;
+  ^
+
+Error: Cannot find module './routes/authRouter'
+Require stack:
+- C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:10:17)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\encse\\OneDrive\\Masaüstü\\nodejs\\personelWebsite\\index.js'
+  ]
+}
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16
+app.use('/api/user',authRoute);
+                    ^
+
+ReferenceError: authRoute is not defined
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16:21)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:10
+const =require('./middlewares/errorHandler');
+      ^
+
+SyntaxError: Unexpected token '='
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:9
+const {errorHandler,notfound=require('./middlewares/errorHandler');
+                                                                  ^
+
+SyntaxError: Unexpected token ';'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:10
+const =require('./middlewares/errorHandler');
+      ^
+
+SyntaxError: Unexpected token '='
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+(node:12328) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 exit listeners added to [Bus]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:17:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16
+app.use(notfound);
+        ^
+
+ReferenceError: notfound is not defined
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:16:9)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:20:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:5)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm install
+
+up to date, audited 172 packages in 2s
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite>
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm run server
+
+> personelwebsite@1.0.0 server
+> nodemon index.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:19:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] restarting due to changes...
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18
+app.use(errorHandler);
+        ^
+
+ReferenceError: errorHandler is not defined
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:18:9)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217
+    throw new TypeError('app.use() requires a middleware function')
+    ^
+
+TypeError: app.use() requires a middleware function
+    at Function.use (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\node_modules\express\lib\application.js:217:11)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\index.js:19:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+^C^CTerminate batch job (Y/N)? y
+PS C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite> npm run server
+
+> personelwebsite@1.0.0 server
+> nodemon index.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\controller\userCtrl.js:14
+               throw new 'User already exists' });
+                                                ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\routes\authRoute.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\controller\userCtrl.js:14
+               throw new Ee'User already exists' });
+                           ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\routes\authRoute.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\controller\userCtrl.js:14
+               throw new Error'User already exists' });
+                              ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Unexpected string
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\routes\authRoute.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\controller\userCtrl.js:14
+               throw new Error('User already exists' });
+                               ^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (C:\Users\encse\OneDrive\Masaüstü\nodejs\personelWebsite\routes\authRoute.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+
+Node.js v18.17.1
+[nodemon] app crashed - waiting for file changes before starting...
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000
+[nodemon] restarting due to changes...
+[nodemon] starting `node index.js`
+MongoDB connected successfully
+Server running on port 5000

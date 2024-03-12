@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body
+{
+    font-family: "Montserrat", sans-serif;
+    background-color: #4b8ac9;
+    color: #bbc9d6;
+    background-image: url('/assets/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.center-div
+{
+    padding-top: 10%;
+}
+.btn.btn-succes
+{
+    padding: .4em 2em;
+    
+}
+form{
+    padding: 0 3em;
+
+}
+#login.title>span
+{
+    font-size: .8em;
+}
